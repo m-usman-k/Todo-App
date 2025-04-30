@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" />
+  </head>
+  <body>
+    <section class="main">
+      <h1>Usman's Todo App With Django</h1>
+      <div class="all-todos">
+        <div class="each-todo">
+          <input type="checkbox" />
+          <p>This is a todo</p>
+          <button class="cross">&#10006;</button>
+        </div>
+        <div class="each-todo">
+          <input type="checkbox" />
+          <p>This is another todo</p>
+          <button class="cross">&#10006;</button>
+        </div>
+        <div class="each-todo">
+          <input type="checkbox" />
+          <p>This is a one more todo</p>
+          <button class="cross">&#10006;</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
